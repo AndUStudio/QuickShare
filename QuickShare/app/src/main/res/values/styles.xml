@@ -4,5 +4,10 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
     </style>
-
+    <style name="loading_small" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@anim/loading_anim</item>
+        <item name="android:layout_width">32dip</item>
+        <item name="android:layout_height">32dip</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
 </resources>
